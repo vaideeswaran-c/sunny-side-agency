@@ -1,0 +1,1 @@
+{"version":3,"sources":["script.js"],"names":["menu","document","getElementById","header","showMenu","event","preventDefault","classList","toggle"],"mappings":"AAAA,MAAMA,KAAOC,SAASC,eAAe,QAC/BC,OAASF,SAASC,eAAe,UAEjCE,SAAWC,IACbA,EAAMC,iBACNN,KAAKO,UAAUC,OAAO","file":"script.js"}

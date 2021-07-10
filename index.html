@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+		<title>Frontend Mentor | Sunnyside agency landing page</title>
+
+		<link rel="stylesheet" href="dist/style.css" />
+	</head>
+	<body>
+		<header>
+			<nav class="header" id="header">
+				<div class="logo-container">
+					<img src="/images/logo.svg" alt="Sunnyside logo" class="logo" />
+				</div>
+				<label class="burger" onclick="showMenu(event)">
+					<span></span>
+					<span></span>
+					<span></span>
+				</label>
+
+				<nav class="d-none desktop-menu">
+					<ul>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Projects</a></li>
+						<li class="desktop-contact"><a href="#">Contact</a></li>
+					</ul>
+				</nav>
+			</nav>
+			<nav class="d-none menu" id="menu">
+				<ul>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Projects</a></li>
+					<li class="contact"><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+			<h1>We are creatives</h1>
+			<div class="arrow">
+				<img src="/images/icon-arrow-down.svg" alt="arrow down icon" />
+			</div>
+		</header>
+		<div class="transform-container">
+			<div class="transform-image"></div>
+			<section class="transform">
+				<h2>Transform your brand</h2>
+				<p>
+					We are a full-service creative agency specializing in helping brands grow fast.
+					Engage your clients through compelling visuals that do most of the marketing for
+					you.
+				</p>
+				<a href="#" class="learn_more yellow">Learn more</a>
+			</section>
+		</div>
+		<div class="stand-out-container">
+			<div class="stand-out"></div>
+			<section class="transform">
+				<h2>Stand out to the right audience</h2>
+				<p>
+					Using a collaborative formula of designers, researchers, photographers,
+					videographers, and copywriters, we’ll build and extend your brand in digital
+					places.
+				</p>
+				<a href="#" class="learn_more orange">Learn more</a>
+			</section>
+		</div>
+		<div class="design-container">
+			<div class="first">
+				<div class="graphic-design"></div>
+				<section class="graphic">
+					<h2>Graphic design</h2>
+					<p>
+						Great design makes you memorable. We deliver artwork that underscores your
+						brand message and captures potential clients’ attention.
+					</p>
+				</section>
+			</div>
+			<div class="second">
+				<div class="photography"></div>
+				<section class="graphic blue">
+					<h2>Photography</h2>
+					<p>
+						Increase your credibility by getting the most stunning, high-quality photos
+						that improve your business image.
+					</p>
+				</section>
+			</div>
+		</div>
+		<section class="testimonials">
+			<h3>Client testimonials</h3>
+			<div class="testimonial-container">
+				<article>
+					<div class="avatar emily">
+						<img src="/images/image-emily.jpg" alt="Emily's avatar" />
+					</div>
+					<p>
+						We put our trust in Sunnyside and they delivered, making sure our needs were
+						met and deadlines were always hit.
+					</p>
+					<div class="author">
+						Emily R.<br />
+						<span>Marketing Director</span>
+					</div>
+				</article>
+				<article>
+					<div class="avatar thomas">
+						<img src="/images/image-thomas.jpg" alt="Thomas's avatar" />
+					</div>
+					<p>
+						Sunnyside’s enthusiasm coupled with their keen interest in our brand’s
+						success made it a satisfying and enjoyable experience.
+					</p>
+					<div class="author">
+						Thomas S.<br />
+						<span>Chief Operating Officer</span>
+					</div>
+				</article>
+				<article>
+					<div class="avatar jennie">
+						<img src="/images/image-jennie.jpg" alt="Jennie's avatar" />
+					</div>
+					<p>
+						Incredible end result! Our sales increased over 400% when we worked with
+						Sunnyside. Highly recommended!
+					</p>
+					<div class="author">
+						Jennie F.<br />
+						<span>Business Owner</span>
+					</div>
+				</article>
+			</div>
+		</section>
+		<section class="gallery">
+			<div class="milk"></div>
+			<div class="orange"></div>
+			<div class="cone"></div>
+			<div class="sugar"></div>
+		</section>
+		<footer>
+			<div class="logo-footer">
+				<img src="/images/logocolor.svg" alt="Sunnyside logo" />
+			</div>
+			<div class="footer-link">
+				<ul>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Projects</a></li>
+				</ul>
+			</div>
+			<div class="social-media">
+				<img src="/images/icon-facebook.svg" alt="Facebook icon" />
+				<img src="/images/icon-instagram.svg" alt="Instagram icon" />
+				<img src="/images/icon-twitter.svg" alt="Twitter icon" />
+				<img src="/images/icon-pinterest.svg" alt="Pinterest icon" />
+			</div>
+		</footer>
+
+		<script src="/dist/script.js"></script>
+	</body>
+</html>
